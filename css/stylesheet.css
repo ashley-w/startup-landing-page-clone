@@ -75,6 +75,8 @@ div {
 .top-navigation {
 	background-color: #fff;
 	padding: .8rem;
+	position: fixed;
+	width: 100%;
 }
 
 .top-naviation > .content {
@@ -85,7 +87,6 @@ div {
 
 .top-navigation > .logo {
 	margin-left: 2rem;
-	padding-left: 2rem;
     height: 1.5rem;
 }
 
@@ -115,4 +116,31 @@ div {
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+
+/* background image section */
+
+h1 {
+	font-size: 3em;
+	font-weight: normal;
+}
+
+p {
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-left: -.6em;
+	margin-right: -.8em;
+}
+.middle-section {
+	background-image: url("../images/first-background.jpg");
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	padding: 19em;
+}
+
+.custom-button {
+	width: 50em;
+	height: 1em;
+	background-color: orange;
 }
