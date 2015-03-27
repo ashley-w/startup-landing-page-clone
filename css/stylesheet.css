@@ -68,40 +68,42 @@ div {
 
 /* navigation answers */
 .content {
-	padding: 0.1em 1.2em;
+	padding: 0.1rem 1.2rem;
 }
 
 /* navigation codes */
 .top-navigation {
 	background-color: #fff;
-	padding: .8em;
+	padding: .8rem;
 }
 
 .top-naviation > .content {
-	width: 970px;
-	height: 70px;
+	width: 13rem;
+	height: 1.5rem;
 	margin: 0 auto;
 }
 
 .top-navigation > .logo {
-	margin-left: 2em;
-    height: 70px;
+	margin-left: 2rem;
+	padding-left: 2rem;
+    height: 1.5rem;
 }
 
 .content > .links {
 	float: right;
     font-family: 'Roboto', sans-serif;
     color: #838994;
-    font-size: 1em;
-    margin-top: 25px;
+    font-size: 1rem;
+    margin-top: 1.36rem;
+    margin-right: .5rem;
     -webkit-font-smoothing: antialiased;
 }
 
 .content > .links li {
 	float: right;
 	display: inline-block;
-	margin-left: 2em;
-	margin-top: -.54em;
+	margin-left: 2rem;
+	margin-top: -.54rem;
 }
 
 
