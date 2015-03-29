@@ -59,6 +59,7 @@ table {
 
 body {
 	background-color: LightGray;
+	-webkit-font-smoothing: antialiased;
 }
 
 div {
@@ -66,28 +67,36 @@ div {
 }
 
 
-/* navigation answers */
+/* navigation section */
 .content {
-	padding: 0.1rem 1.2rem;
+	padding: 0 1rem;
+	margin-left: 5.6rem;
+	margin-right: 5.6rem;
+	min-width: 35rem;
 }
 
-/* navigation codes */
 .top-navigation {
 	background-color: #fff;
 	padding: .8rem;
 	position: fixed;
 	width: 100%;
+	height: 70px;
 }
 
-.top-naviation > .content {
-	width: 13rem;
-	height: 1.5rem;
+.top-navigation > .content {
 	margin: 0 auto;
+	margin-left: 5.6rem;
+	margin-right: 4.6rem;
+	margin-bottom: 2rem;
+	padding-left: 1em;
+	min-width: 37.5rem;
 }
 
-.top-navigation > .logo {
-	margin-left: 2rem;
-    height: 1.5rem;
+.top-navigation > .content > .logo {
+	margin-left: .09rem;
+	margin-bottom: 2rem;
+	margin-top: -.87rem;
+    height: 4.73rem;
 }
 
 .content > .links {
@@ -95,11 +104,16 @@ div {
     font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 1rem;
-    margin-top: 1.36rem;
-    margin-right: .5rem;
+    margin-top: 1.63rem;
+    margin-right: 1rem;
     -webkit-font-smoothing: antialiased;
 }
 
+.link {
+	margin-top: 27px;
+	height: 17px;
+	width: 506px;
+}
 .content > .links li {
 	float: right;
 	display: inline-block;
@@ -131,16 +145,58 @@ p {
 	margin-left: -.6em;
 	margin-right: -.8em;
 }
-.middle-section {
-	background-image: url("../images/first-background.jpg");
-	text-align: center;
-	color: #FFFFFF;
-	font-family: 'Roboto', sans-serif;
-	padding: 19em;
+
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
 }
 
-.custom-button {
-	width: 50em;
-	height: 1em;
-	background-color: orange;
+.introduction h3 {
+	margin-top: 1.25rem;
+  	font-size: 1.56rem;
+}
+
+.introduction h1 {
+	margin-top: 17.5rem;
+  	font-size: 3.125rem;
+}
+
+.introduction h1, .introduction h3 {
+	color: white;
+  	text-align: center;
+  	font-family: 'Roboto', sans-serif;
+  	font-weight: 300;
+}
+
+.introduction .content {
+	color: white;
+	text-align: center;
+    font-weight: 300;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.big-button {
+	text-shadow: none;
+	text-align: center;
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 26px;
+	line-height: 1.33;
+	width: 8.65em;
+	height: 2.85em;
+	background-color: #f15a29;
+	color: white;
+	font-size: 1.125rem;
+	margin: 0 auto;
+	margin-top: 1.5em;
+}
+
+.big-button:hover {
+	background-color: #d9400e;
+	cursor: pointer;
 }
