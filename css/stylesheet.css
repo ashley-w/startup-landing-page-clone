@@ -77,6 +77,9 @@ div {
 
 .top-navigation {
 	background-color: #fff;
+	border-bottom: .07em;
+	border-style: solid;
+	border-color: #d3d3d3;
 	padding: .8rem;
 	position: fixed;
 	width: 100%;
@@ -93,7 +96,7 @@ div {
 }
 
 .top-navigation > .content > .logo {
-	margin-left: .08rem;
+	margin-left: -.95rem;
 	margin-bottom: 2rem;
 	margin-top: -.87rem;
     height: 4.73rem;
@@ -104,8 +107,8 @@ div {
     font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 1rem;
-    margin-top: 1.63rem;
-    margin-right: 1rem;
+    margin-top: 1.50rem;
+    margin-right: -.1rem;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -178,6 +181,7 @@ p {
     font-weight: 300;
     margin-right: 15px;
     margin-left: 15px;
+    margin-top: -.1rem;
 }
 
 .big-button {
@@ -248,4 +252,29 @@ h1 {
 }
 
 
+/* footer */
 
+.footer-social {
+	background-color: #FFFFFF;
+	padding: 7em;
+}
+
+.footer-social .content {
+	border-top: .07em;
+	border-style: solid;
+	border-color: #d3d3d3;
+	padding: 2em;
+}
+
+.footer-social .content h5 {
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+span {
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif;
+	color: #d3d3d3;
+	text-align: center;
+}
