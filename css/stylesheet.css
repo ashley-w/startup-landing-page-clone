@@ -1,3 +1,5 @@
+* {outline: 1px solid Chocolate;}
+
 /* Paul Irish Box-Sizing: Border-Box reset - apply a natural box layout model to all elements, but allowing components to change http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 html {
   box-sizing: border-box;
@@ -62,9 +64,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-div {
+/* div {
 	border: 1px solid Chocolate;
-}
+} */
 
 
 /* navigation section */
@@ -204,6 +206,8 @@ p {
 	background-color: #d9400e;
 	cursor: pointer;
 }
+
+
 
 /* icon section */
 
