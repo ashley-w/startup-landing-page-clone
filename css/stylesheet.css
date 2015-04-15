@@ -1,4 +1,5 @@
-* {outline: 1px solid Chocolate;}
+
+/* {outline: 1px solid Chocolate;}*/
 
 /* Paul Irish Box-Sizing: Border-Box reset - apply a natural box layout model to all elements, but allowing components to change http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 html {
@@ -57,16 +58,13 @@ table {
 	border-spacing: 0;
 }
 
-/* adding a border and background to div elements */
+/* adding a border and background to div elements
 
 body {
 	background-color: LightGray;
-	-webkit-font-smoothing: antialiased;
-}
+	-webkit-font-smoothing: antialiased; 
+}*/
 
-/* div {
-	border: 1px solid Chocolate;
-} */
 
 
 /* navigation section */
@@ -109,7 +107,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 1rem;
-    margin-top: 1.50rem;
+    margin-top: 2.4rem;
     margin-right: -.1rem;
     -webkit-font-smoothing: antialiased;
 }
@@ -119,6 +117,7 @@ body {
 	height: 17px;
 	width: 506px;
 }
+
 .content > .links li {
 	float: right;
 	display: inline-block;
@@ -259,10 +258,22 @@ h1 {
 /* footer */
 
 .footer-social {
-	background-color: #FFFFFF;
-	padding: 7em;
+	background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
 }
 
+.footer-social .content .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
 .footer-social .content {
 	border-top: .07em;
 	border-style: solid;
@@ -270,11 +281,13 @@ h1 {
 	padding: 2em;
 }
 
+
 .footer-social .content h5 {
 	-webkit-font-smoothing: antialiased;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 }
+
 
 span {
 	-webkit-font-smoothing: antialiased;
